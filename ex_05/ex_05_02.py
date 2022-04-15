@@ -12,7 +12,7 @@ def ex_05_02():
             num = int(num)
         except:
             print("Número invalido")
-            continue
+            continue # Finaliza la iteración actual y salta a la siguiente iteración
         if min is None or num < min:
             min = num
         if max is None or num > max:

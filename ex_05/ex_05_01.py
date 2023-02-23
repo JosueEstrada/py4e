@@ -20,6 +20,7 @@ def ex_05_01():
             print("Error: Entrada inválida")
 
     promedio = suma / contador
+    print("Total | Contador | Promedio")
     print(suma, contador, promedio)
 
 
